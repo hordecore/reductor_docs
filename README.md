@@ -12,7 +12,7 @@
   
     url  domain        https  url_is_domain    ip ipSubnet куда_добавляем
   
-  ## если есть хоть один url
+  # если есть хоть один url
   
       1       x            0            1       0       0  вычисленный домен в url_list
       1       x            0            1       1       0  вычисленный домен в url_list, ip в ip_https_list
@@ -31,7 +31,7 @@
       1       x            1            0       0       1  url в url_list, вычисленный домен в https_list, subnet ip_https_list
       1       x            1            0       1       1  url в url_list, вычисленный домен в https_list, ip и subnet в ip_https_list
 
-## иначе
+# иначе
 
       0       1            0            x       0       0  домен в url_list
       0       1            0            0       1       0  домен в url_list, ip в ip_https_list 
