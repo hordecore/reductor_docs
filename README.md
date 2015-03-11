@@ -2,18 +2,17 @@
 
 # таких не существует
 
-  url       domain        https url_is_domain          ip     ipSubnet
-
+    url     domain        https url_is_domain          ip     ipSubnet
     0            0            0            0            0            0	
     0            x            1            x            x            x
     0            x            x            1            x            x
 
 # 0 отсутствует, 1 - присутствует, x - без разницы
   
-    url  domain        https  url_is_domain    ip ipSubnet куда_добавляем
   
 # если есть хоть один url
-  
+      
+      url  domain        https  url_is_domain    ip ipSubnet куда_добавляем
       1       x            0            1       0       0  вычисленный домен в url_list
       1       x            0            1       1       0  вычисленный домен в url_list, ip в ip_https_list
       1       x            0            1       0       1  вычисленный домен в url_list, subnet ip_https_list
